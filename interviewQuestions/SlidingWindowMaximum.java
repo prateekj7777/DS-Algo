@@ -19,7 +19,7 @@ public class SlidingWindowMaximum {
 		public int[] maxSlidingWindow(int[] a, int k) {
 			int n = a.length;
 
-			if (n == 0) {
+			if (n <= 1) {
 				return a;
 			}
 
